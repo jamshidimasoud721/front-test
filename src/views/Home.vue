@@ -33,7 +33,7 @@ export default {
     }
   },
   mounted() {
-    fetch('https://reason-digital-test-front.prismic.io/api/v2/documents/search?ref=ZZ2RtxEAACIAUwck&src=apibrowser#format=json')
+    fetch('https://reason-digital-test-front.prismic.io/api/v2/documents/search?ref=ZZ2SyxEAACMAUwwU&src=apibrowser#format=json')
         .then(res => res.json())
         .then(data => {
           this.imgUrl=data.results[0].data.banner.url;
