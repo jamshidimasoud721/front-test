@@ -1,9 +1,12 @@
 <template>
   <div class="banner-content" v-bind:style="{backgroundImage:'url(' + imgUrl + ')'}">
-    <h2>Get Online Week 2023</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
+    <div class="banner-title">
+      <h2>Get Online Week 2023</h2>
+    </div>
+    <div class="banner-description">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam.</p>
+    </div>
   </div>
   <div class="services">
     <div class="container">
